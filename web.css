@@ -1,0 +1,94 @@
+.page{
+    position: static;
+    width: 1200px;
+    height: 80%;
+    float: left;
+    top: 0px;
+    left: 50px;
+    background-color: white;
+}
+.head img{
+    position: static;
+    float:top;
+}
+#nam{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    
+}
+#qua{
+    top: 8px;
+    font-size:1.1rem ;
+    color: rgb(67, 174, 138);
+}
+.word{
+    position:relative;
+    margin-top: 8%;
+    padding-top: 3%;
+    padding-left: 10%;
+    /* top:10px;
+    left: 0%; */
+    
+    color: blue;
+    
+}
+.flo{
+    display: flex;
+}
+.bar {
+    background-color: lavender;
+    height: 30px;
+    
+    
+    
+}
+#txt{
+    display: flex;
+    float:right;
+    list-style: none;
+    padding-top: 5px;
+}
+.det img{
+    height: 450px;
+    width: 500px;
+}
+footer{
+    background-color: rgb(65, 65, 141);
+    position:relative;
+    text-align: center;
+    color: white;
+    top: 100%;
+}
+.sym {
+    height: 50px;
+    width: 100%;
+    background-color:rgb(99, 99, 211);
+    position: static;
+    top: 100%;
+}
+.sym a{
+    position: relative;
+    left: 45%;
+    top: 40%;
+    color: white;
+}
+.foot{
+    position: static;
+    top: 100%;
+    color: white;
+}
+a{
+    text-decoration:none;
+}
+.ho:hover{
+    background-color: blue;
+    border-radius: 3px;
+    border:2px solid blue;
+    opacity: 0.5;
+    cursor: pointer;
+    color: white;
+
+}
+.ho{
+    margin-left: 10px;
+}
